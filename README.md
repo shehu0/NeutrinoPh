@@ -1,44 +1,7 @@
-# k4-project-template
+# Neutrino phenomenology collaboration
 
+Repository to be made for the neutrino phenomenolgy group by:
+S. AbdusSalam,  M.Z. Abyaneh, F. Ghelichkhani, and M. Noormandipour
 
-This repository can be a starting point and template for projects using the Key4HEP software stack.
+[example 1](https://github.com/mrnp95/MultiNest-REAP)
 
-
-
-## Dependencies
-
-* ROOT
-
-* PODIO
-
-* Gaudi
-
-* k4FWCore
-
-## Installation
-
-
-```
-mkdir build install
-cd build;
-cmake .. -DCMAKE_INSTALL_PREFIX=../install
-make install
-
-
-```
-
-## Execute Examples 
-
-
-```
-./run gaudirun.py ../k4TestFWCore/options/createHelloWorld.py 
-
-./run gaudirun.py ../k4TestFWCore/options/createExampleEventData.py 
-
-```
-
-
-## References:
-These could perhaps be usefule for newcomers. 
-1. [lhcb-98-064 COMP](https://cds.cern.ch/record/691746/files/lhcb-98-064.pdf)
-2. [Hello World in the Gaudi Framework](https://lhcb.github.io/DevelopKit/02a-gaudi-helloworld)
